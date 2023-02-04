@@ -458,8 +458,8 @@ footer .bottom-footer .container img{
   width: 20px;
 }
 /* end footer  */
-/* start responsive for header  */
-@media only screen and (max-width: 500px) and (min-width: 200px) {
+/* start media query  */
+@media only screen and (max-width: 700px) and (min-width: 200px) {
   body {
     background-color: white;
   }
@@ -558,4 +558,9 @@ footer .bottom-footer .container img{
 width: 100px;
   }
 }
-/* end responsive for header  */
+@media screen and (max-width:300px) {
+  .images{
+    flex-direction: column;
+  }
+}
+/* end media query */
